@@ -10,7 +10,7 @@ Este proyecto **no usa base de datos**. Tiene dos partes:
    pregunta a **OSRM** (Open Source Routing Machine, servidor demo
    público — https://router.project-osrm.org, **gratis y sin API key**)
    la distancia y el tiempo estimado en carro entre dos sedes del
-   torneo. Es el mismo caso del ejemplo del profesor (Santo Domingo →
+   torneo. Por ejemplo (Santo Domingo →
    Pedernales), pero con un servicio que no requiere registrarte ni
    pedir una llave de API, así no perdemos tiempo con eso.
 
@@ -26,9 +26,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload --port 8001
 ```
 
-Nota: usamos el puerto **8001** (no el 8000) para poder tener este
-proyecto corriendo al mismo tiempo que el del formulario, sin que
-choquen.
+Nota: usamos el puerto **8001**
 
 Prueba en el navegador: http://localhost:8001/api/health → debe decir
 `{"status":"ok"}`.
@@ -41,7 +39,7 @@ npm install
 npm run dev
 ```
 
-Abre: http://localhost:5174 (puerto 5174, distinto al del formulario).
+Abre: http://localhost:5174 (puerto 5174).
 
 ## 3. Cómo probarlo
 
