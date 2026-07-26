@@ -57,7 +57,7 @@ Abre: http://localhost:5174 (puerto 5174, distinto al del formulario).
 2. Dale "Calcular ruta" — el backend consulta OSRM y te devuelve la
    distancia en km y el tiempo estimado en carro.
 
-## Notas para la entrega / explicación al profesor
+## En Resumen:
 
 - El servicio **propio** (`/api/reparto-premio`) no depende de internet
   ni de terceros: toda la lógica (porcentajes por posición) está en
