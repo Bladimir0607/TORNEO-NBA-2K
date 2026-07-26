@@ -1,4 +1,4 @@
-# Herramientas del Torneo NBA 2K — Servicio propio + Servicio externo
+# Torneo NBA 2K — Servicio propio + Servicio externo
 
 Este proyecto **no usa base de datos**. Tiene dos partes:
 
