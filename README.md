@@ -44,9 +44,11 @@ npm run dev
 Abre: http://localhost:5174 
 
 ## 3. Test 
+```bash
 cd tests
 venv\Scripts\activate
 pytest test_herramientas.py
+```
 
 ## 3. Cómo probarlo
 
